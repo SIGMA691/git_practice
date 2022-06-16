@@ -137,14 +137,6 @@ footer{
     display:inline-block;
     margin-left: 55px;
 }
-.savoir img{
-    height: 200px;
-    width: 200px;
-}
-.savoir p{
-    display: flex;
-    width: 70%;
-}
 /* button retour  */
 .retour{
     background-color: rgb(250, 205, 3);
