@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(83, 80, 80);
+}
+p{
+    width: 50%;
+    text-align: justify;
+    margin: auto;
+    opacity: 10;
+    line-height: 23px;
+    font-size: 20px;
+}
+h2{
+    width: 50%;
+    text-align: justify;
+    margin: auto;
+    opacity: 10;
+    color:rgb(250, 205, 3) ;  
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgba(14, 13, 13, 0.555);
+}
+.corps{
+    width: 80%;
+    margin: auto;
+    background-color: whitesmoke;
+}
+
+/* design du header  */
+header{
+    height: 70px;
+    width: 100%;
+    background: rgba(12, 12, 12, 0.918);
+    color:rgb(250, 205, 3);
+}
+header h1{
+    font-size: 45px;
+    padding: 10px;
+    padding-left: 20px;
+}
+/* designe de la barre de navigation  */
+nav{
+    width: 100%;
+    background-color:rgba(14, 13, 13, 0.555);
+    border-bottom: 1px solid rgba(14, 13, 13, 0.555);
+}
+nav ul li{
+    float: left;
+    list-style: none;
+    cursor: pointer;
+}
+nav ul{
+    float: right;
+    margin: 0;
+    padding: 0px;
+}
+nav li a{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(250, 205, 3);
+    font-size: 15px;
+    padding: 20px 30px;
+}
+.table{
+    margin: auto;
+    display: table;
+}
+/* ajout d'animation sur la barre de navigation */
+nav li a:hover{
+color: rgb(248, 247, 244);
+background: linear-gradient(90deg,rgb(209, 180, 49),rgba(12, 12, 12, 0.788),rgba(12, 12, 12, 0.788));
+padding: 15px,30px,20px,30px;
+border-top-left-radius: 14px;
+border-bottom-right-radius: 14px;
+}
+/* creation du profile  */
+.couverture{
+    opacity: 0.4;
+    margin: auto;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    border-radius: 50%;
+    left: 20%;
+    background-color: rgba(14, 13, 13, 0.555);
+    margin-left:6% ;
+    margin-top: 6%;
+}
+.profile{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    opacity: 1;border: 1px solid  #fff;
+    box-shadow: 0px 1px 5px;
+    position: relative;
+    top: 45px;
+    left: 45px;
+}
+.profile:hover{
+    transform: scale(1.2);
+    box-shadow: 0px,1px 5px rgba(12, 12, 12, 0.918);
+}
+.moi{
+    height: 200px;
+    width: 100%;
+   
+}
+#moi1{
+    margin-left:50px;
+}
+.nom{
+    width: 50%;
+    display: inline-block;
+}
+/* creation des competence  */
+.competence{
+    position: relative;
+    top: 45px;
+}
+/* creation du pied de page  */
+footer{
+    height: 90px;
+    width: 100%;
+    background-color: rgba(12, 12, 12, 0.918);
+    color:rgb(250, 205, 3) ;
+    font-size: 20px;
+    text-align: center;
+}
+.contact a{
+    color:rgb(250, 205, 3) ;
+    text-decoration: none;
+    display:inline-block;
+    margin-left: 55px;
+}
+/* button retour  */
+.retour{
+    background-color: rgb(250, 205, 3);
+    color:#fff;
+    border-radius: 50%;
+    border: none;
+}
+.loisir img{
+    width: 50px;
+    height: 50;
+}
